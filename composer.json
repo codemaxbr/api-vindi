@@ -1,0 +1,29 @@
+{
+    "name": "codemaxbr/api-vindi",
+    "description": "API de Integração - Vindi",
+    "type": "library",
+    "require": {
+        "vindi/vindi-php": "^1.3",
+        "vlucas/phpdotenv": "^5.5",
+        "guzzlehttp/guzzle": "^7.5",
+        "ext-json": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Codemaxbr\\Vindi\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Lucas Maia",
+            "email": "lucas.codemax@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}
